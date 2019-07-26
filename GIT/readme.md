@@ -24,14 +24,11 @@
 # 插入网址  
 [百度](https://www.baidu.com/)
 ****
-​​```
-
-#include <stdio.h>
-int main()
-{
-/* 我的第一个 C 程序 */
-printf("Hello, World! \n");
-
-return 0;
-}
-​```
+```
+		let pauseBtn = UIButton(frame: CGRect(x: 50, y: HEIGHT-100, width: 100, height: 50))
+        pauseBtn.addTarget(self, action: #selector(btnClick(_:)), for: .touchUpInside)
+        pauseBtn.setTitle("暂停", for: .normal)
+        pauseBtn.tag = 11
+        pauseBtn.setTitleColor(UIColor.black, for: .normal) 
+```
+​​
